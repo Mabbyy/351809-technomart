@@ -3,15 +3,17 @@
   <head>
     <meta charset="utf-8">
     <title>HTML academy:Техномаркт</title>
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
 <header class="main-header">
   <div class="header-top">
-    <div class="header-top-logo">
-    <h1>
-      <a href="#">техномарт</a>
-    </h1>
-    </div>
+    <div class="container">
+      <div class="header-top-logo">
+        <h1>
+          <a href="#">техномарт</a>
+        </h1>
+      </div>
     <div class="header-top-wraper">
       <div class="header-top-search">
         <form action="index.html" method="get">
@@ -24,18 +26,20 @@
     <a class="Order" href="#">Оформить заказ</a>
     </div>
   </div>
+</div>
   <div class="header-bottom">
+<div class="container">
 <div class="info">
-  <p>Интернет-магазин
+<p>Интернет-магазин
 строительных материалов
 и инструментов для ремонта</p>
 </div>
 <div class="contacts">
-  <div class="telephone">
-    <p>+7 (812) 555-05-55</p>
-  </div>
+<div class="telephone">
+  <p>+7 (812) 555-05-55</p>
 </div>
-<p>г. Санкт-Петербург, ул. Б.</p>
+  <p>г. Санкт-Петербург, ул. Б. Конюшенная д.19/8</p>
+</div>
 <div class="user-block">
   <a class="login" href="#login">Войти</a>
   <a class="register" href="#register">Регистрация</a>
@@ -66,36 +70,38 @@
   </ul>
 </nav>
 </div>
+</div>
 </header>
 <main class="main">
-  <div class="content">
+  <div class="content container">
     <div class="promo-block">
-      <div class="promo-section">
+      <div class="promo-section materials">
         <h2>Материалы</h2>
         <a href="#">На любой вкус</a>
       </div>
-      <div class="promo-section">
+      <div class="promo-section instruments">
         <h2>Инструменты</h2>
         <a href="#">На все случаи</a>
       </div>
-      <div class="promo-section">
+      <div class="promo-section equipment">
         <h2>Техника</h2>
         <a href="#">Для стройки</a>
       </div>
       <div class="slider">
-        <ul>
+       <ul>
           <li>
-            <div class="slide"
+            <div class="slide">
               <h2>Перфораторы</h2>
               <span>Настоящие мужские игрушки</span>
-              <img src="http://placehold.it/350x150" alt="Перфораторы">
+              <img src="img/slider 1.jpg" width="620" height="266" alt="Перфораторы">
               <a class="catalog-btn" href="#">Открыть каталог</a>
             </div>
+          </li>
           <li>
             <div class="slide">
               <h2>Дрели</h2>
               <span>Соседям на радость</span>
-              <img src="http://placehold.it/350x150" alt="Дрели">
+              <img src="img/slider 2.jpg" width="620" height="266" alt="Дрели">
               <a class="catalog-btn" href="#">открыть каталог</a>
             </div>
           </li>
@@ -115,11 +121,11 @@
           </div>
         </div>
       </div>
-      <div class="promo-section">
+      <div class="promo-section sale">
         <h2>Скидка 50%</h2>
         <a href="#">На 350 товаров</a>
       </div>
-      <div class="promo-section">
+      <div class="promo-section delivery">
         <h2>Доставка</h2>
         <a href="#">Бесплатно</a>
       </div>
@@ -133,7 +139,7 @@
   <div class="items">
     <div class="item">
     <div class="item-img">
-      <img src="http://placehold.it/150x100" alt="Перфоратор Bosch
+      <img src="img/bsh bfg9000.jpg" width="218" height="135" alt="Перфоратор Bosch
 BFG 9000">
     </div>
     <span class="drill-title">Перфоратор BOSCH
@@ -144,7 +150,7 @@ BFG 9000</span>
 
     <div class="item">
     <div class="item-img">
-      <img src="http://placehold.it/150x100" alt="Перфоратор BOSCH
+      <img src="img/bsh bfg3000.jpg" width="218" height="135" alt="Перфоратор BOSCH
 BFG 3000">
     </div>
     <span class="drill-title">Перфоратор BOSCH
@@ -155,7 +161,7 @@ BFG 3000</span>
 
     <div class="item">
     <div class="item-img">
-      <img src="http://placehold.it/150x100" alt="Перфоратор BOSCH
+      <img src="img/bsh bfg6000.jpg" width="218" height="135" alt="Перфоратор BOSCH
 BFG 6000">
     </div>
     <span class="drill-title">Перфоратор BOSCH
@@ -166,7 +172,7 @@ BFG 6000</span>
 
     <div class="item">
     <div class="item-img">
-      <img src="http://placehold.it/150x100" alt="Перфоратор Bosch
+      <img src="img/bsh bfg2000.jpg" width="218" height="135" alt="Перфоратор Bosch
 BFG 2000">
     </div>
     <span class="drill-title">Перфоратор BOSCH
@@ -184,74 +190,76 @@ BFG 2000</span>
     <div class="popular-brand">
       <div class="popular-brand-img">
         <a href="#">
-          <img src="http://placehold.it/150x100" alt="Bosch">
+          <img src="img/bosch.png" alt="Bosch">
         </a>
       </div>
     </div>
     <div class="popular-brand">
       <div class="popular-brand-img">
         <a href="#">
-          <img src="http://placehold.it/150x100" alt="Makita">
+          <img src="img/Makita.png" alt="Makita">
         </a>
       </div>
     </div>
     <div class="popular-brand">
       <div class="popular-brand-img">
         <a href="#">
-          <img src="http://placehold.it/150x100" alt="DeWalt">
+          <img src="img/DeWALT.png" alt="DeWalt">
         </a>
       </div>
     </div>
     <div class="popular-brand">
       <div class="popular-brand-img">
         <a href="#">
-          <img src="http://placehold.it/150x100" alt="Интерскол">
+          <img src="img/interskol.png" alt="Интерскол">
         </a>
       </div>
     </div>
     <div class="popular-brand">
       <div class="popular-brand-img">
         <a href="#">
-          <img src="http://placehold.it/150x100" alt="Hitachi">
+          <img src="img/Hitachi.png" alt="Hitachi">
         </a>
       </div>
     </div>
     <div class="popular-brand">
       <div class="popular-brand-img">
         <a href="#">
-          <img src="http://placehold.it/150x100" alt="Lg">
+          <img src="img/LG.png" alt="Lg">
         </a>
       </div>
     </div>
     <div class="popular-brand">
       <div class="popular-brand-img">
         <a href="#">
-          <img src="http://placehold.it/150x100" alt="AEG">
+          <img src="img/AEG.png" alt="AEG">
         </a>
       </div>
     </div>
     <div class="popular-brand">
       <div class="popular-brand-img">
         <a href="#">
-          <img src="http://placehold.it/150x100" alt="Metabo">
+          <img src="img/Metabo.png" alt="Metabo">
         </a>
       </div>
     </div>
   </div>
 </div>
   <div class="service">
-<div class="container">
+    <div class="container">
     <h2>Сервисы</h2>
-    <p>Хороший интернет-магазин отличается от плохого не только ценами!
-Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
+    <p>Хороший интернет-магазин отличается от плохого не только ценами!</p>
+    <p>Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
 <div class="service-block">
-  <input type="radio" name="Delivery" id="button-1">
-  <input type="radio" name="guarantee" id="button-2">
-  <input type="radio" name="credit" id="button-3">
   <div class="service-transit">
-    <label for="button-1">Доставка</label>
-    <label for="button-2">Гарантия</label>
-    <label for="button-3">Кредит</label>
+  <input type="radio" name="btn-service-block" id="button-1">
+  <input type="radio" name="btn-service-block" id="button-2">
+  <input type="radio" name="btn-service-block" id="button-3">
+  <ul>
+    <li><label for="button-1">Доставка</label></li>
+    <li><label for="button-2">Гарантия</label></li>
+    <li><label for="button-3">Кредит</label></li>
+  </ul>
   </div>
   <div class="service-block-info">
   <div class="service-block-delivery">
@@ -281,7 +289,7 @@ BFG 2000</span>
 </div>
 <div class="about-company">
   <div class="container">
-    <div class="block-3-left">
+    <div class="about-company-left">
       <h2>КОМПАНИЯ «ТЕХНОМАРТ»</h2>
       <p>Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и
          строительства не оставит равнодушными любителей сэкномить на гастарбайтерах.</p>
@@ -294,12 +302,12 @@ BFG 2000</span>
    </ul>
    <a class="company-btn" href="#">Подробнее о компании</a>
     </div>
-    <div class="block-3-right">
+    <div class="about-company-right">
       <h2>КОНТАКТЫ</h2>
       <p>Вы можете забрать товар сами,<br>
          заехав в наш офис.</p>
          <a class="map" href="#">
-           <img src="№" alt="как проехать">
+           <img src="img/map.png" width="300" height="158" alt="как проехать">
          </a>
          <a class="btn-contacts" href="#">Заблудились? Напишите Нам</a>
     </div>
@@ -309,6 +317,7 @@ BFG 2000</span>
 <footer class="main-footer">
   <div class="footer-top">
     <div class="container">
+      <div class="footer-top-right">
     <div class="footer-logo">
       <h2>
         <a href="#">Техномарт</a>
@@ -317,6 +326,7 @@ BFG 2000</span>
     <div class="footer-contacts">
       <p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br>
          +7 (812) 555-05-55</p>
+    </div>
     </div>
     <div class="foter-navigation">
       <nav class="foter-nav">
@@ -369,12 +379,12 @@ BFG 2000</span>
         <a class="social-btn" href="#">Инстаграм</a>
       </div>
       <div class="footer-comunication">
-        <div class="feedback">
-          <p>Обратная связь:</p>
-          <p>Разработано —</p>
-        </div>
         <div class="email">
+          <p>Обратная связь:</p>
           <a href="#">mail@htmlacademy.ru</a>
+        </div>
+        <div class="feedback ">
+          <p>Разработано —</p>
           <a href="#">htmlacademy.ru</a>
         </div>
       </div>
