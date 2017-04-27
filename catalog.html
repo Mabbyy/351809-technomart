@@ -8,6 +8,7 @@
   <body>
     <header class="main-header">
       <div class="header-top">
+        <div class="container">
         <div class="header-top-logo">
         <h1>
           <a href="#">техномарт</a>
@@ -25,7 +26,9 @@
         <a class="Order" href="#">Оформить заказ</a>
         </div>
       </div>
+    </div>
       <div class="header-bottom">
+        <div class="container">
     <div class="info">
       <p>Интернет-магазин
     строительных материалов
@@ -35,8 +38,8 @@
       <div class="telephone">
         <p>+7 (812) 555-05-55</p>
       </div>
+      <p>г. Санкт-Петербург, ул. Б.</p>
     </div>
-    <p>г. Санкт-Петербург, ул. Б.</p>
     <div class="user-block">
       <div class="user-block-loged">
         <a class="-user-loged" href="#">Равшан Джамшутович</a>
@@ -72,6 +75,7 @@
       </ul>
     </nav>
     </div>
+  </div>
     </header>
 <main>
   <div class="catalog">
@@ -89,14 +93,14 @@
           </li>
         </ul>
       </div>
-      <div class="Heading punchers">
+      <div class="heading-punchers">
         <h2>Перфораторы</h2>
       </div>
       <div class="filter">
-        <span>Фильтр:</span>
+        <span class="filter-title">Фильтр:</span>
       <form class="filter-column" action="index.html" method="get">
         <div class="by-price">
-          <h3>Цена:</h3>
+          <span class="price-title">Цена:</span>
           <div class="range-control">
             <div class="linear-control">
               <span class="btn-round"></span><!--круглая кнопка-->
@@ -111,29 +115,43 @@
         </div>
           <hr>
           <h3>Производители</h3>
-          <div class="By-manufacturer">
+          <div class="by-manufacturer">
+            <ul>
+            <li>
             <input id="bosch" type="checkbox" name="bosch" checked>
             <label for="bosch">Bosch</label>
-
+            </li>
+            <li>
             <input id="interscol" type="checkbox" name="interscol">
             <label for="interscol">Интерскол</label>
-
+            </li>
+            <li>
             <input id="makita" type="checkbox" name="makita" checked>
             <label for="makita">Makita</label>
-
+            </li>
+            <li>
             <input id="dewalt" type="checkbox" name="dewalt">
             <label for="dewalt">DeWalt</label>
-
+          </li>
+            <li>
             <input id="hitachi" type="checkbox" name="hitachi">
             <label for="hitachi">HITACHI</label>
+          </li>
+          </ul>
           </div>
           <hr>
           <h3>Питание</h3>
           <div class="on-power">
+            <ul>
+              <li>
             <input id="Rechargeable" type="radio" name="power">
             <label for="Rechargeable">Аккумуляторные</label>
+              </li>
+              <li>
             <input id="Network" type="radio" name="power">
             <label for="Network">Сетевые</label>
+              </li>
+            </ul>
           </div>
            <input type="submit" name="btn-filter" value="Показать">
       </form>
@@ -291,7 +309,7 @@
     </div><!--block4-->
     <div class="info-drill">
       <div class="container">
-        <h2>Пара слов о перфораторах</h2>
+        <h2 class="drill-title">Пара слов о перфораторах</h2>
         <p>Перфоратор — универсальный строительный инструмент. Предназначен для сверления и долбления отверстий в кирпиче, бетоне и камне.</p>
         <p>Существуют электромеханические и пневматические перфораторы. Современные модели могут выполнять функции дрели, шуруповерта и отбойного молотка. В
           ассортиментном ряду есть выбор «трехрежимников»: в одном устройстве будут совмещены отбойный молоток и ударная дрель.</p>
@@ -301,6 +319,7 @@
 <footer class="main-footer">
   <div class="footer-top">
     <div class="container">
+      <div class="footer-top-right">
     <div class="footer-logo">
       <h2>
         <a href="#">Техномарт</a>
@@ -309,6 +328,7 @@
     <div class="footer-contacts">
       <p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br>
          +7 (812) 555-05-55</p>
+    </div>
     </div>
     <div class="foter-navigation">
       <nav class="foter-nav">
@@ -361,12 +381,12 @@
         <a class="social-btn" href="#">Инстаграм</a>
       </div>
       <div class="footer-comunication">
-        <div class="feedback">
-          <p>Обратная связь:</p>
-          <p>Разработано —</p>
-        </div>
         <div class="email">
+          <p>Обратная связь:</p>
           <a href="#">mail@htmlacademy.ru</a>
+        </div>
+        <div class="feedback ">
+          <p>Разработано —</p>
           <a href="#">htmlacademy.ru</a>
         </div>
       </div>

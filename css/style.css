@@ -82,6 +82,116 @@ display: inline-block;
   list-style: none;
   display: inline;
 }
+.breadcrumb {
+  width: 540px;
+  min-height: 59px;
+  background-color: rgba(191, 216, 247, 0.4);
+}
+.breadcrumb ul {
+  margin: 0;
+  padding: 0;
+}
+.breadcrumb li {
+  list-style: none;
+  display: inline;
+}
+.heading-punchers {
+  width: 940px;
+  min-height: 59px;
+  background-color: #f2f6f8;
+  margin-bottom: 20px;
+}
+.heading-punchers h2 {
+  margin: 0;
+}
+.filter {
+  width: 220px;
+  min-height: 800px;
+  margin-right: 20px;
+  float: left;
+}
+.filter-title {
+  width: 220px;
+  min-height: 38px;
+  background-color: #f7f3ec;
+  display: inline-block;
+}
+.by-price {
+  width: 200px;
+  min-height: 208px;
+  display: inline-block;
+}
+.price-title {
+  width: 220px;
+  min-height: 55px;
+  display: inline-block;
+}
+.range-control {
+  width: 220px;
+  min-height: 127px;
+  display: inline-block;
+}
+.range-control [type="text"] {
+  width: 95px;
+  min-height: 38px;
+  background-color: #f7f3ec;
+}
+.linear-control {
+  width: 220px;
+  min-height: 80px;
+  display: inline-block;
+  margin-bottom: 10px;
+  background-color: #f7f3ec;
+}
+.price-control {
+  width: 220px;
+  min-height: 38px;
+  display: inline-block;
+}
+.by-manufacturer ul {
+  margin: 0;
+  padding: 0;
+}
+.by-manufacturer li {
+  list-style: none;
+}
+.on-power ul {
+  margin: 0;
+  padding: 0;
+}
+.on-power li {
+  list-style: none;
+}
+.sorting {
+  width: 700px;
+  min-height: 38px;
+  background-color: #f7f3ec;
+  display: inline-block;
+}
+.catalog-items {
+  width: 700px;
+  min-height: 995px;
+  float: right;
+  background-color: rgba(88, 99, 247, 0.5);
+}
+.catalog-items .item:nth-child(3n) {
+  margin-right: 0px;
+}
+.items-btn-page {
+  width: 300px;
+  min-height: 38px;
+  float: left;
+  margin-left: 240px;
+  margin-top: 52px;
+  margin-bottom: 60px;
+  background-color: rgba(165, 145, 111, 0.5);
+}
+.info-drill {
+  background-color: #f2f6f8;
+}
+.drill-title {
+  margin: 0;
+}
 .promo-block::after {
   content: "";
   display: table;
